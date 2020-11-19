@@ -10,7 +10,7 @@ ms.init('mc-nexus.de', 25565, function (result) {
     if (ms.online) {
         data = {
             state: 'Online (' + ms.version + "): " + ms.current_players + " von " + ms.max_players + " Spieler",
-            details: ms.motd.split("\n")[1].replace(/\u00a7[0-9A-Fa-f]/g, '')
+            details: ms.motd.split("\n")[1].replace(/(\u00a7[0-9A-Fa-f])/g, '')
         }
     }
     else {
