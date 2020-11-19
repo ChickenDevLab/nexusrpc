@@ -16,8 +16,7 @@
   "author": "Dr_Dee",
   "license": "MIT",
   "dependencies": {
-    "discord-rpc": "^3.1.4",
-    "node-fetch": "^2.6.1"
+    "discord-rpc": "^3.1.4"
   },
   "devDependencies": {
     "pkg": "^4.4.9"

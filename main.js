@@ -1,6 +1,4 @@
 const { Client } = require('discord-rpc')
-const path = require('path')
-const fetch = require('node-fetch')
 const ms = require('./minestats')
 
 const clientId = '750725647495856149';
