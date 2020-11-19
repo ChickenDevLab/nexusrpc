@@ -1,2 +1,5 @@
 node_modules
 package-lock.json
+nexusrpc-win.exe
+nexusrpc-linux
+nexusrpc-macos
