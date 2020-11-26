@@ -18,7 +18,7 @@ async function setActivity() {
         if (ms.online) {
             data = {
                 state: 'Online (' + ms.version + "): " + ms.current_players + " von " + ms.max_players + " Spieler",
-                details: ms.motd.split("\n")[1].substr(3)
+                details: ms.motd.split("\n")[1].replace(/(?i)§[0-9A-FK-OR]/g,'')
             }
         }
         else {
